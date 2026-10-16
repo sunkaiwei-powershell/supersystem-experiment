@@ -1,5 +1,7 @@
 # SuperSystem · 超级系统
 
+> ⬇️ **Download / 下载 / ダウンロード / 다운로드 / Herunterladen**: [GitHub Release V1.0.0](https://github.com/sunkaiwei-powershell/supersystem-experiment/releases/tag/V1.0.0)
+>
 > 🌍 **This README is written in 5 languages. Pick yours and jump straight in.**
 > 🌍 **本文档提供 5 种语言版本，请按你的母语直接跳转。**
 > 🌍 **この README は 5 言語で書かれています。母国語を選んでそのままお進みください。**
@@ -84,10 +86,11 @@
 
 ### 6. 交付物
 
-| 文件 | 说明 | 校验 |
+| 文件 | 说明 | 校验 (SHA-256) |
 |------|------|------|
-| `SuperSystem_USB_Installer.exe` | U 盘安装器（写入 + 校验） | MD5 `92a2deb193a47068df887bfd48a0b3a7` |
-| `stage6.iso` | 主镜像（hybrid，BIOS + UEFI，1.19GB） | MD5 `eb40979c6dbd4fd61ae298391c255e1d` |
+| `SuperSystem_Installer.exe` | 全内置安装器（ISO 已嵌在 EXE 内，按 Start 即开始制作） | `69cba00e6cf0d39594913d2a5e92764c5868d841bdf34650bac6677ab96b0735` |
+| `SuperSystem_USB_Installer.exe` | 分体安装器（需旁边放 `stage6.iso`） | `9b4ee18d59c4e2d46d740f2170a11ac01559979bbe56e589954ff8c64e262d14` |
+| `stage6.iso` | 主镜像（hybrid，BIOS + UEFI，1.19GB） | `fe6ae89dc77a1f02950edba358c3130f06a472b599a03d9fee57d607da49ebf0` |
 | `README.md` | 本文档 | — |
 
 ### 7. 免责声明
@@ -162,10 +165,11 @@ The idea was "**three kernels, one consistent macOS-style desktop**": each kerne
 
 ### 6. Deliverables
 
-| File | Description | Checksum |
+| File | Description | Checksum (SHA-256) |
 |------|-------------|----------|
-| `SuperSystem_USB_Installer.exe` | USB installer (write + verify) | MD5 `92a2deb193a47068df887bfd48a0b3a7` |
-| `stage6.iso` | Main image (hybrid, BIOS + UEFI, 1.19GB) | MD5 `eb40979c6dbd4fd61ae298391c255e1d` |
+| `SuperSystem_Installer.exe` | All-in-one installer (ISO embedded in the EXE; just press Start) | `69cba00e6cf0d39594913d2a5e92764c5868d841bdf34650bac6677ab96b0735` |
+| `SuperSystem_USB_Installer.exe` | Separate installer (needs `stage6.iso` beside it) | `9b4ee18d59c4e2d46d740f2170a11ac01559979bbe56e589954ff8c64e262d14` |
+| `stage6.iso` | Main image (hybrid, BIOS + UEFI, 1.19GB) | `fe6ae89dc77a1f02950edba358c3130f06a472b599a03d9fee57d607da49ebf0` |
 | `README.md` | This document | — |
 
 ### 7. Disclaimer
@@ -240,10 +244,11 @@ This is a personal technical experiment for learning and research only. ReactOS 
 
 ### 6. 成果物
 
-| ファイル | 説明 | チェックサム |
+| ファイル | 説明 | チェックサム (SHA-256) |
 |---------|------|-------------|
-| `SuperSystem_USB_Installer.exe` | USB インストーラ（書込 + 検証） | MD5 `92a2deb193a47068df887bfd48a0b3a7` |
-| `stage6.iso` | メインイメージ（hybrid、BIOS + UEFI、1.19GB） | MD5 `eb40979c6dbd4fd61ae298391c255e1d` |
+| `SuperSystem_Installer.exe` | オールインワン版（ISO を EXE に内蔵、Start を押すだけ） | `69cba00e6cf0d39594913d2a5e92764c5868d841bdf34650bac6677ab96b0735` |
+| `SuperSystem_USB_Installer.exe` | 分離版（隣に `stage6.iso` が必要） | `9b4ee18d59c4e2d46d740f2170a11ac01559979bbe56e589954ff8c64e262d14` |
+| `stage6.iso` | メインイメージ（hybrid、BIOS + UEFI、1.19GB） | `fe6ae89dc77a1f02950edba358c3130f06a472b599a03d9fee57d607da49ebf0` |
 | `README.md` | 本文書 | — |
 
 ### 7. 免責
@@ -318,10 +323,11 @@ This is a personal technical experiment for learning and research only. ReactOS 
 
 ### 6. 산출물
 
-| 파일 | 설명 | 체크섬 |
+| 파일 | 설명 | 체크섬 (SHA-256) |
 |------|------|--------|
-| `SuperSystem_USB_Installer.exe` | USB 설치 프로그램(쓰기 + 검증) | MD5 `92a2deb193a47068df887bfd48a0b3a7` |
-| `stage6.iso` | 메인 이미지(hybrid, BIOS + UEFI, 1.19GB) | MD5 `eb40979c6dbd4fd61ae298391c255e1d` |
+| `SuperSystem_Installer.exe` | 올인원 설치 프로그램(ISO가 EXE에 내장, Start만 누르면 됨) | `69cba00e6cf0d39594913d2a5e92764c5868d841bdf34650bac6677ab96b0735` |
+| `SuperSystem_USB_Installer.exe` | 분리형 설치 프로그램(옆에 `stage6.iso` 필요) | `9b4ee18d59c4e2d46d740f2170a11ac01559979bbe56e589954ff8c64e262d14` |
+| `stage6.iso` | 메인 이미지(hybrid, BIOS + UEFI, 1.19GB) | `fe6ae89dc77a1f02950edba358c3130f06a472b599a03d9fee57d607da49ebf0` |
 | `README.md` | 본 문서 | — |
 
 ### 7. 면책
@@ -396,10 +402,11 @@ Die Idee war „**drei Kernel, ein einheitlicher macOS-Desktop-Look**": Jeder Ke
 
 ### 6. Lieferumfang
 
-| Datei | Beschreibung | Prüfsumme |
+| Datei | Beschreibung | Prüfsumme (SHA-256) |
 |-------|--------------|-----------|
-| `SuperSystem_USB_Installer.exe` | USB-Installer (Schreiben + Prüfen) | MD5 `92a2deb193a47068df887bfd48a0b3a7` |
-| `stage6.iso` | Haupt-Image (hybrid, BIOS + UEFI, 1,19 GB) | MD5 `eb40979c6dbd4fd61ae298391c255e1d` |
+| `SuperSystem_Installer.exe` | All-in-One-Installer (ISO in der EXE eingebettet; nur Start drücken) | `69cba00e6cf0d39594913d2a5e92764c5868d841bdf34650bac6677ab96b0735` |
+| `SuperSystem_USB_Installer.exe` | Separater Installer (benötigt `stage6.iso` daneben) | `9b4ee18d59c4e2d46d740f2170a11ac01559979bbe56e589954ff8c64e262d14` |
+| `stage6.iso` | Haupt-Image (hybrid, BIOS + UEFI, 1,19 GB) | `fe6ae89dc77a1f02950edba358c3130f06a472b599a03d9fee57d607da49ebf0` |
 | `README.md` | Dieses Dokument | — |
 
 ### 7. Haftungsausschluss
